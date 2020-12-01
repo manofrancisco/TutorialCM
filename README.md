@@ -1,3 +1,3 @@
 # Material Design Components for Android (Java)
 
-Contains starter code the Material Design Tutorial
+Contains starter code for the Material Design Tutorial
