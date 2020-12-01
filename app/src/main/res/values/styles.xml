@@ -1,8 +1,7 @@
 <resources xmlns:android="http://schemas.android.com/tools" android:ignore="NamespaceTypo">
 
-    <!-- Base application theme. -->
+    <!-- APPLICATION THEME - A1 -->
     <style name="Theme.Tutorial" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -17,7 +16,7 @@
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
-    <!-- TEXT INPUTS, username and Password -->
+    <!-- TEXT INPUTS, username and Password  -->
     <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextAppearance">@style/TextAppearance.Shrine.TextInputLayout.HintText</item>
         <item name="hintTextColor">@color/textColorPrimary</item>

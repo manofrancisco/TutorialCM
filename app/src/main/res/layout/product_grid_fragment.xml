@@ -16,7 +16,8 @@
         android:paddingBottom="100dp">
             <include layout="@layout/backdrop" />
     </LinearLayout>
-    <!-- TOOLBAR STYLE -->
+
+    <!-- TOOLBAR STYLE - P1-->
     <!--
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -47,7 +48,7 @@
             />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- PRODUCT GRID LAYOUT -->
+    <!-- PRODUCT GRID LAYOUT - P2 -->
     <!--
     <androidx.core.widget.NestedScrollView
         android:id="@+id/product_grid"
@@ -85,6 +86,5 @@
             android:layout_height="match_parent" />
 
     </androidx.core.widget.NestedScrollView>
-
 
 </FrameLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PRODUCT CARD SETTINGS -->
+<!-- PRODUCT CARD SETTINGS - P4 -->
 <!--
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,7 +8,7 @@
     app:cardBackgroundColor="@android:color/transparent"
     app:cardElevation="0dp"
     app:cardPreventCornerOverlap="true"
-    app:cardCornerRadius="8dp"> -->
+    app:cardCornerRadius="8dp">-->
 
 
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,8 +39,9 @@
             android:padding="16dp">
 
 
-            <!-- PRODUCT CARD TITLE -->
-            <!-- <TextView
+            <!-- PRODUCT CARD TITLE - P3 -->
+            <!--
+            <TextView
                 android:id="@+id/product_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -53,11 +54,11 @@
                 android:id="@+id/product_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/shr_product_title"
-                android:gravity="center_horizontal" />
+                android:text="@string/shr_product_title" />
 
-            <!-- PRODUCT CARD PRICE -->
-            <!-- <TextView
+            <!-- PRODUCT CARD PRICE - P3 -->
+            <!--
+            <TextView
                 android:id="@+id/product_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -70,10 +71,7 @@
                 android:id="@+id/product_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/shr_product_description"
-                android:textAlignment="center"
-                android:textAppearance="?attr/textAppearanceBody2"
-                android:gravity="center_horizontal" />
+                android:text="@string/shr_product_description" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
